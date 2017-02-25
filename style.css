@@ -101,6 +101,17 @@ nav a:hover
 	{
 		border-bottom: 0;
 	}
+
+		header h1
+	{
+	position: absolute;
+	right: 100px;
+	top: 0px;
+	font-family: Arial, "Comic sans Ms", Verdana, serif;
+	font-weight: bold;
+	font-size: 100px;
+	color: black;
+	}
 }
 
 /*responsive design pour cibler les mobiles*/
