@@ -83,16 +83,18 @@ nav a:hover
 	{
 		width: auto;
 		text-align: left;
+		display: inline-block;
 	}
 
 	nav ul
 	{
-		flex-direction: column;
+		flex-direction: initial;
 	}
 
 	nav li
 	{
 		padding-left: 4px;
+		font-size: 17px:;
 	}
 
 	nav a:hover
@@ -108,6 +110,7 @@ nav a:hover
 	{
 		width: auto;
 		text-align: left;
+		display: inline-block;
 	}
 
 	nav ul
@@ -118,6 +121,7 @@ nav a:hover
 	nav li
 	{
 		padding-left: 4px;
+		font-size: 17px:;
 	}
 
 	nav a:hover
@@ -128,6 +132,8 @@ nav a:hover
 	#titre_pincipal
 	{
 		flex-direction: initial;
+		position: relative;
+		left: 80px;
 	}
 }
 
