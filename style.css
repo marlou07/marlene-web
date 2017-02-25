@@ -129,13 +129,16 @@ nav a:hover
 		border-bottom: 0;
 	}
 
-	#titre_pincipal
+	header h1
 	{
-		flex-direction: initial;
-		position: relative;
-		right: 0px;
-		top: 0;
-	}
+	position: absolute;
+	right: 40px;
+	top: 0px;
+	font-family: Arial, "Comic sans Ms", Verdana, serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: black;
+	}	
 }
 
 body
