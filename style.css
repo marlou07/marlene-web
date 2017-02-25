@@ -1,0 +1,166 @@
+body
+{
+	background: url("imagesm/pattern_cuadros01.png") scroll repeat-x top left;
+	background-color: rgb(230,230,230);
+}
+
+#bloc_page
+{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+#titre_principal
+{
+background: url("imagesm/marlene_pop03.png") no-repeat;
+position: relative;
+left: 80px;
+}
+
+header h1
+{
+	position: absolute;
+	right: 400px;
+	top: 20px;
+	font-family: Arial, "Comic sans Ms", Verdana, serif;
+	font-weight: bold;
+	font-size: 100px;
+	color: black;
+}
+
+nav
+{
+	list-style: none;
+	display: inline-block;
+	width: 950px;
+	text-align: justify;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 300px;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 70px;
+}
+
+nav a
+{
+	text-decoration: none;
+}
+
+nav li a
+{
+	padding: 5px 15px;
+	font-weight: bold;
+	color: rgb(227, 246, 239);
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.5); 
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	background-color: rgba(0,0,0,0.25);
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+nav a:hover
+{
+	color: #fff;
+	background: rgba(255,255,255,0.25);
+}
+
+/* reponsive design */
+@media all and (max-width: 1024px)
+{
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+
+	nav ul
+	{
+		flex-direction: column;
+	}
+
+	nav li
+	{
+		padding-left: 4px;
+	}
+
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+}
+
+/*responsive design pour cibler les mobiles*/
+@media all and (max-device-width: 480px)
+{
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+
+	nav ul
+	{
+		flex-direction: column;
+	}
+
+	nav li
+	{
+		padding-left: 4px;
+	}
+
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+}
+
+body
+{
+	font-family: Arial, "Comic sans Ms", Verdana, serif;
+	margin-left: 40px;
+}
+
+h1 
+{
+	color: rgb(148, 189, 21);
+	padding-top: 20px;
+}
+
+h2
+{
+	color: rgb(249, 100, 0);
+	margin: 0px;
+	padding-bottom: 0px;
+}
+
+
+figure
+{
+	float: left;
+	margin-left: 20px;
+}
+
+footer h1
+{
+	text-align: left;
+	margin-left: 0px;
+	width: 10em;
+}
+
+footer p
+{
+	display: inline-block;
+	vertical-align: middle;
+}
