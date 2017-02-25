@@ -120,8 +120,8 @@ nav a:hover
 
 	nav li
 	{
-		padding-left: 4px;
-		font-size: 17px:;
+		padding-left: 20px;
+		font-size: 40px:;
 	}
 
 	nav a:hover
@@ -132,11 +132,11 @@ nav a:hover
 	header h1
 	{
 	position: absolute;
-	right: 40px;
+	right: 100px;
 	top: 0px;
 	font-family: Arial, "Comic sans Ms", Verdana, serif;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 100px;
 	color: black;
 	}	
 }
