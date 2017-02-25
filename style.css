@@ -83,7 +83,7 @@ nav a:hover
 	{
 		width: auto;
 		text-align: left;
-		display: inline-block;
+		display: inline;
 	}
 
 	nav ul
@@ -110,7 +110,7 @@ nav a:hover
 	{
 		width: auto;
 		text-align: left;
-		display: inline-block;
+		display: inline;
 	}
 
 	nav ul
@@ -133,7 +133,8 @@ nav a:hover
 	{
 		flex-direction: initial;
 		position: relative;
-		left: 80px;
+		right: 0px;
+		top: 0;
 	}
 }
 
